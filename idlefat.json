@@ -1,0 +1,15 @@
+{
+	"DefaultValues": {
+		"EnableNewRole":false, //新角色
+		"AB_test_users": 100 //进入AB测试的比例（0%-100%）
+	},
+	"ABtests": {//Ref组（默认值对照组）
+		"1.1.1Ref": {
+			"panel_size": 10//权重
+		},
+		"1.1.1A": { //A组
+			"panel_size": 10,//权重
+		    "EnableNewRole":true//皮肤功能开启
+		}
+	}
+}
