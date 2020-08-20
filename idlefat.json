@@ -1,15 +1,15 @@
 {
 	"DefaultValues": {
-		"EnableSecondWorld":false,
+		"EnableFlyAndScale":false,
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.1.3Ref": {
+		"1.1.4Ref": {
 			"panel_size": 10
 		},
-		"1.1.3A": {
+		"1.1.4A": {
 			"panel_size": 10,
-		    "EnableSecondWorld":true
+		    "EnableFlyAndScale":true
 		}
 	}
 }
