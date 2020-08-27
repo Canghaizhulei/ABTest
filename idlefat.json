@@ -1,15 +1,15 @@
 {
 	"DefaultValues": {
-		"EnableFlyAndScale":false,
+		"EnableNewAb":false,
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.1.4Ref": {
+		"1.1.5Ref": {
 			"panel_size": 10
 		},
-		"1.1.4A": {
+		"1.1.5A": {
 			"panel_size": 10,
-		    "EnableFlyAndScale":true
+		    "EnableNewAb":true
 		}
 	}
 }
