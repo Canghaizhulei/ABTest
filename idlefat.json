@@ -1,6 +1,7 @@
 {
 	"DefaultValues": {
 		"EnableNewAb":false,
+		"EnableNewGuide":false,
 		"AB_test_users": 100
 	},
 	"ABtests": {
@@ -10,6 +11,10 @@
 		"1.1.6A": {
 			"panel_size": 10,
 		    "EnableNewAb":true
+		},
+		"1.1.6B": {
+			"panel_size": 10,
+		    "EnableNewGuide":true
 		}
 	}
 }
