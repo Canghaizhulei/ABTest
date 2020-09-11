@@ -1,20 +1,20 @@
 {
 	"DefaultValues": {
-		"EnableNewAb":false,
-		"EnableNewGuide":false,
+		"EnableA":false,
+		"EnableB":false,
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.1.6Ref": {
+		"1.1.8Ref": {
 			"panel_size": 10
 		},
-		"1.1.6A": {
+		"1.1.8A": {
 			"panel_size": 10,
-		    "EnableNewAb":true
+		    "EnableA":true
 		},
-		"1.1.6B": {
+		"1.1.8B": {
 			"panel_size": 10,
-		    "EnableNewGuide":true
+		    "EnableB":true
 		}
 	}
 }
