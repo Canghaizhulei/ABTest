@@ -1,20 +1,15 @@
 {
 	"DefaultValues": {
 		"EnableA":false,
-		"EnableB":false,
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.1.8Ref": {
+		"1.1.9Ref": {
 			"panel_size": 10
 		},
-		"1.1.8A": {
+		"1.1.9A": {
 			"panel_size": 10,
 		    "EnableA":true
-		},
-		"1.1.8B": {
-			"panel_size": 10,
-		    "EnableB":true
 		}
 	}
 }
