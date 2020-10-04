@@ -5,14 +5,14 @@
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.1.8Ref": {
+		"1.1.11Ref": {
 			"panel_size": 10
 		},
-		"1.1.8A": {
+		"1.1.11A": {
 			"panel_size": 10,
 		    "EnableA":true
 		},
-		"1.1.8B": {
+		"1.1.11B": {
 			"panel_size": 10,
 		    "EnableB":true
 		}
