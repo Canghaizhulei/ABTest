@@ -1,20 +1,20 @@
 {
 	"DefaultValues": {
-		"EnableA":false,
-		"EnableB":false,
+		"EnableInternetCheck":false,
+		"UpDifficulty":false,
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.2.0Ref": {
+		"1.2.2Ref": {
 			"panel_size": 10
 		},
-		"1.2.0A": {
+		"1.2.2A": {
 			"panel_size": 10,
-		    "EnableA":true
+		    "EnableInternetCheck":true
 		},
-		"1.2.0B": {
+		"1.2.2B": {
 			"panel_size": 10,
-		    "EnableB":true
+		    "UpDifficulty":true
 		}
 	}
 }
