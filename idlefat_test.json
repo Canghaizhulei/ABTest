@@ -1,7 +1,7 @@
 {
 	"DefaultValues": {
-		"SlowerGuide":false,
-		"AddStory":false,
+		"SlowerGuide":true,
+		"AddStory":true,
 		"AB_test_users": 100
 	},
 	"ABtests": {
@@ -10,11 +10,9 @@
 		},
 		"devA": {
 			"panel_size": 10,
-		    "SlowerGuide":true
 		},
 		"devB": {
 			"panel_size": 10,
-		    "AddStory":true
 		}
 	}
 }
