@@ -1,20 +1,28 @@
 {
 	"DefaultValues": {
-		"EnableInternetCheck":false,
-		"UpDifficulty":false,
+		"Blinking":false,
+		"Tempo":0,
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.2.2Ref": {
+		"1_3_1_Ref": {
 			"panel_size": 10
 		},
-		"1.2.2A": {
+		"1_3_1_A": {
 			"panel_size": 10,
-		    "EnableInternetCheck":true
+		    "Tempo":1,
 		},
-		"1.2.2B": {
+		"1_3_1_B": {
 			"panel_size": 10,
-		    "UpDifficulty":true
-		}
+		    "Tempo":2,
+		},
+		"1_3_1_C": {
+			"panel_size": 10,
+		    "Tempo":3,
+		},
+		"1_3_1_D": {
+			"panel_size": 10,
+		    "Blinking":true,
+		},
 	}
 }
